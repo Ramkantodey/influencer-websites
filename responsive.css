@@ -28,4 +28,59 @@
     }
 
     /* navbar responsive end here */
+
+
+    /* header responsive start here */
+    .header-main{
+        flex-direction: column-reverse;
+    }
+    .header-right img{
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+    .header-left h1{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header-left p{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .header-left button{
+      margin-left: 70px;
+    }
+         /* header responsive end here */
+
+
+        /* sponsor section responsive start here  */
+    .sponsor{
+        margin: 10%;
+    }
+    .sponsor img{
+        width: 40px;
+        height: 30px;              
+     }
+          /* sponsor section responsive end here  */
+
+
+        /* Popular section responsive start here */
+        .card{
+            grid-template-columns: repeat(1, 1fr);
+            width: 280px;
+            height: 476px;
+            margin-left: 40px;
+            
+
+        }
+        .title{
+            padding-left: 20px;
+            font-size: 25px;
+        }
+        .popular-main img{
+            width: 100%;
+            height: 100%;
+          }
+         /* Popular section responsive end here */
 }
