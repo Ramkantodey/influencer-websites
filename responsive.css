@@ -1,0 +1,31 @@
+@media screen and (max-width:576px) {
+    /* navbar responsive start here */
+    .nav-main{
+        width: 80%;
+    }
+    .nav-left{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .nav-menu{
+        display: block;
+        font-size: 20px;
+        margin-right:  50px;
+    }
+    .nav-cart{
+        display: block;
+        font-size: 19px;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-left h2{
+        font-size: 14px;
+    }
+    .nav-cart{
+        margin-left: 40px;
+    }
+
+    /* navbar responsive end here */
+}
