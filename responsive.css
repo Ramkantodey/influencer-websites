@@ -68,10 +68,8 @@
         /* Popular section responsive start here */
         .card{
             grid-template-columns: repeat(1, 1fr);
-            width: 280px;
-            height: 476px;
             margin-left: 40px;
-            
+            margin-right: 40px;
 
         }
         .title{
@@ -83,4 +81,19 @@
             height: 100%;
           }
          /* Popular section responsive end here */
+
+         .product-main{
+            flex-direction: column-reverse;
+         }
+         .product-right h1{
+
+            font-size: 50px;
+            margin-bottom: 20px;
+}
+.product-left img{
+    width: 100%;
+}
+.fot-container h1{
+    font-size: 19px;
+}
 }
